@@ -1,0 +1,39 @@
+{
+  "name": "dealforge",
+  "version": "0.1.0",
+  "description": "Dealforge 0.1.0",
+  "authors": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.6",
+    "semantic-ui": "^0.9.6",
+    "angular": "1.5.8",
+    "angular-route": "1.5.8",
+    "animate.css": "^3.5.2",
+    "font-awesome": "fontawesome#^4.7.0"
+  },
+  "resolutions": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.6",
+    "angular": "1.5.8"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "font-awesome": {
+    "main": [
+        "css/font-awesome.css"
+    ]
+    }
+  }
+}

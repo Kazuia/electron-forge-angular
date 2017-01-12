@@ -1,0 +1,32 @@
+.panel-fusion {
+  border: solid 1px #c85a5c;
+}
+
+.panel-fusion .panel-heading {
+  background-color: #c85a5c;
+  color: white;
+  padding: 5px 15px;
+}
+
+.panel-title {
+  height:32px;
+  line-height:32px; /* centrage vertical */
+  margin-left: 40px;
+  font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+;
+
+}
+
+.panel-working {
+  border: solid 1px #4f5d73;
+}
+
+.panel-working .panel-heading {
+  background-color: #4f5d73;
+  color: white;
+  padding: 5px 15px;
+}
+
+.panel-heading img {
+  float: left;
+}

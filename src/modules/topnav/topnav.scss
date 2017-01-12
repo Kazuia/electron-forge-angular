@@ -1,0 +1,19 @@
+.btn-win {
+  background-color: transparent;
+  background-position: center center;
+  -webkit-transition: opacity .2s;
+  -moz-transition: opacity .2s;
+  -ms-transition: opacity .2s;
+  transition: opacity .2s;
+  opacity: .6;
+  border: 0;
+  -webkit-app-region: no-drag;
+}
+
+header {
+  -webkit-app-region: drag;
+  a {
+    -webkit-app-region: no-drag;
+    font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+}

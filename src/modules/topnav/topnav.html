@@ -1,0 +1,15 @@
+<div style="height:3px; background-color: #c85a5c;"></div>
+<header class='navbar navbar-default navbar-static-top'>
+  <nav class='container' role='navigation'>
+    <div class='navbar-header'>
+      <a href='#home' class='navbar-brand animated bounceInRight'>electron-forge-angular</a>
+    </div>
+
+    <ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
+      <li><a href="#sample"><span class="bold">Sample tab</span></a></li>
+      <li><a class="btn btn-win" ng-click="vm.min()"><i class="fa fa-window-minimize" aria-hidden="true"></i></a></li>
+      <li><a class="btn btn-win" ng-click="vm.max()"><i class="fa fa-window-maximize" aria-hidden="true" ng-if="!vm.maximizeState"></i><i class="fa fa-window-restore" aria-hidden="true" ng-if="vm.maximizeState"></i></a></li>
+      <li><a class="btn btn-win" ng-click="vm.close()"><i class="fa fa-times" aria-hidden="true"></i></a></li>
+    </ul>
+  </nav>
+</header>

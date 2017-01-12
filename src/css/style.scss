@@ -1,0 +1,32 @@
+body{
+  //max-width: 1280px;
+  margin: 0 auto;
+}
+
+section, header {
+  background-color: #fff;
+}
+
+a {
+  color: #ac005f;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+li.small-image{
+  width: 50px;
+}
+
+li.small-image img{
+  width: 100%;
+}
