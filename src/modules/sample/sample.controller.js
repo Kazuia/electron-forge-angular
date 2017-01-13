@@ -21,7 +21,7 @@
         function notify() {
           new Notification('Notif added',
             {
-              body: "You added a notif for : Item #0",
+              body: "Senpai finally noticed me!",
               icon: 'img/icon.ico'
             }
           );

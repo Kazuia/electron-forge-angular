@@ -13,12 +13,14 @@ angular.module('efangular').config(['$routeProvider', function($routeProvider) {
 
     .when('/home', {
       templateUrl: 'modules/home/home.html',
-      controller: 'HomeController'
+      controller: 'HomeController',
+      controllerAs: 'vm'
     })
 
     .when('/sample', {
       templateUrl: 'modules/sample/sample.html',
-      controller: 'SampleController'
+      controller: 'SampleController',
+      controllerAs: 'vm'
     })
 
     .otherwise({redirectTo: '/'});
