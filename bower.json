@@ -2,7 +2,7 @@
   "name": "electron-forge-angular",
   "version": "0.1.0",
   "description": "electron-forge-angular 0.1.0",
-  "authors": [],
+  "authors": "Kazuia",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -31,9 +31,12 @@
       ]
     },
     "font-awesome": {
-    "main": [
+      "main": [
         "css/font-awesome.css"
-    ]
+      ]
     }
+  },
+  "devDependencies": {
+    "angular-translate": "^2.13.1"
   }
 }
