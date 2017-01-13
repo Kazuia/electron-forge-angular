@@ -41,13 +41,16 @@
           <div class="panel panel-info">
             <div class="panel-heading">Animate CSS samples</div>
             <div class="panel-body">
-              <p class="animated flash">AnimateCSS is awesome</p>
-              <!--
+              <p class="animated" ng-class="{infinite: infinite, bounce: vm.bounce, flash: vm.flash, swing: vm.swing}">AnimateCSS is awesome</p>
               <div class="btn-group">
-               <button type="button" class="btn btn-primary">Bounce!</button>
-               <button type="button" class="btn btn-primary">Flash!</button>
-               <button type="button" class="btn btn-primary">Swing!</button>
-             </div>-->
+               <button type="button" class="btn btn-primary" ng-click="vm.animate('bounce')">Bounce!</button>
+               <button type="button" class="btn btn-primary" ng-click="vm.animate('flash')">Flash!</button>
+               <button type="button" class="btn btn-primary" ng-click="vm.animate('swing')">Swing!</button>
+             </div>
+             <label>
+               <input type="checkbox" ng-model="infinite">
+               infinite loop
+            </label>
             </div>
           </div>
         </div>
