@@ -13,20 +13,17 @@
         vm.notify = notify;
         vm.animate = animate;
 
-        vm.bounce = false;
-        vm.swing = false;
-        vm.flash = false;
-
         activate();
 
         function activate() {
             console.log('Activated Add View');
+            vm.effect = 'bounce';
         }
 
         function notify() {
-          new Notification('Notif added',
+          new Notification('Notification title',
             {
-              body: "Senpai finally noticed me!",
+              body: "An example of notification!",
               icon: 'img/icon.ico'
             }
           );

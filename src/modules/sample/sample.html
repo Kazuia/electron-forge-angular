@@ -41,16 +41,26 @@
           <div class="panel panel-info">
             <div class="panel-heading">Animate CSS samples</div>
             <div class="panel-body">
-              <p class="animated" ng-class="{infinite: infinite, bounce: vm.bounce, flash: vm.flash, swing: vm.swing}">AnimateCSS is awesome</p>
-              <div class="btn-group">
-               <button type="button" class="btn btn-primary" ng-click="vm.animate('bounce')">Bounce!</button>
-               <button type="button" class="btn btn-primary" ng-click="vm.animate('flash')">Flash!</button>
-               <button type="button" class="btn btn-primary" ng-click="vm.animate('swing')">Swing!</button>
-             </div>
-             <label>
-               <input type="checkbox" ng-model="infinite">
-               infinite loop
-            </label>
+              <p class="animated" ng-class="{infinite: infinite, bounce: vm.effect == 'bounce', flash: vm.effect == 'flash', swing: vm.effect == 'swing'}">AnimateCSS is awesome</p>
+              <form name="myForm">
+                <label>
+                  <input type="radio" ng-model="vm.effect" value="bounce">
+                  Bounce!
+                </label><br/>
+                <label>
+                  <input type="radio" ng-model="vm.effect" value="flash">
+                  Flash!
+                </label><br/>
+                <label>
+                  <input type="radio" ng-model="vm.effect" value="swing">
+                  Swing!
+                </label><br/>
+                <hr/>
+                <label>
+                  <input type="checkbox" ng-model="infinite">
+                  infinite loop
+               </label>
+               </form>
             </div>
           </div>
         </div>
@@ -58,7 +68,7 @@
           <div class="panel panel-danger">
             <div class="panel-heading">Notify sandbox</div>
             <div class="panel-body">
-              <button type="button" class="btn btn-success" ng-click="vm.notify()">Notice me senpai!</button>
+              <button type="button" class="btn btn-success" ng-click="vm.notify()">Notify me !</button>
             </div>
           </div>
         </div>
