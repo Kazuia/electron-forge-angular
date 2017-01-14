@@ -1,75 +1,64 @@
-<div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="row">
-          <div class="panel panel-success">
-            <div class="panel-heading">Panel with panel-success class</div>
-            <div class="panel-body">
-              <table class="table table-hover">
-                <thead>
-                  <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Email</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>john@example.com</td>
-                  </tr>
-                  <tr>
-                    <td>Mary</td>
-                    <td>Moe</td>
-                    <td>mary@example.com</td>
-                  </tr>
-                  <tr>
-                    <td>July</td>
-                    <td>Dooley</td>
-                    <td>july@example.com</td>
-                  </tr>
-                </tbody>
-              </table>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="panel panel-success">
+          <div class="panel-heading">Font-awesome ready !</div>
+          <div class="panel-body">
+            <div class="col-md-12 col-sm-12">
+              <div class="row">
+                <div class="fa-hover col-md-4 col-sm-4"><i class="fa fa-check-square" aria-hidden="true"></i> <span class="sr-only">Example of </span>check-square</div>
+                <div class="fa-hover col-md-4 col-sm-4"><i class="fa fa-check-square-o" aria-hidden="true"></i> <span class="sr-only">Example of </span>check-square-o</div>
+                <div class="fa-hover col-md-4 col-sm-4"><i class="fa fa-circle" aria-hidden="true"></i> <span class="sr-only">Example of </span>circle</div>
+              </div>
+              <div class="row">
+                <div class="fa-hover col-md-4 col-sm-4"><i class="fa fa-circle-o" aria-hidden="true"></i> <span class="sr-only">Example of </span>circle-o</div>
+                <div class="fa-hover col-md-4 col-sm-4"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span class="sr-only">Example of </span>dot-circle-o</div>
+                <div class="fa-hover col-md-4 col-sm-4"><i class="fa fa-minus-square" aria-hidden="true"></i> <span class="sr-only">Example of </span>minus-square</div>
+              </div>
+              <div class="row">
+                <div class="fa-hover col-md-4 col-sm-4"><i class="fa fa-minus-square-o" aria-hidden="true"></i> <span class="sr-only">Example of </span>minus-square-o</div>
+                <div class="fa-hover col-md-4 col-sm-4"><i class="fa fa-plus-square" aria-hidden="true"></i> <span class="sr-only">Example of </span>plus-square</div>
+                <div class="fa-hover col-md-4 col-sm-4"><i class="fa fa-plus-square-o" aria-hidden="true"></i> <span class="sr-only">Example of </span>plus-square-o</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-5 col-md-offset-1">
-        <div class="row">
-          <div class="panel panel-info">
-            <div class="panel-heading">Animate CSS samples</div>
-            <div class="panel-body">
-              <p class="animated" ng-class="{infinite: infinite, bounce: vm.effect == 'bounce', flash: vm.effect == 'flash', swing: vm.effect == 'swing'}">AnimateCSS is awesome</p>
-              <form name="myForm">
-                <label>
-                  <input type="radio" ng-model="vm.effect" value="bounce">
-                  Bounce!
-                </label><br/>
-                <label>
-                  <input type="radio" ng-model="vm.effect" value="flash">
-                  Flash!
-                </label><br/>
-                <label>
-                  <input type="radio" ng-model="vm.effect" value="swing">
-                  Swing!
-                </label><br/>
-                <hr/>
-                <label>
-                  <input type="checkbox" ng-model="infinite">
-                  infinite loop
-               </label>
-               </form>
-            </div>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+      <div class="row">
+        <div class="panel panel-info">
+          <div class="panel-heading">Animate CSS samples</div>
+          <div class="panel-body">
+            <p class="animated" ng-class="{infinite: infinite, bounce: vm.effect == 'bounce', flash: vm.effect == 'flash', swing: vm.effect == 'swing'}">AnimateCSS is awesome</p>
+            <form name="myForm">
+              <label>
+                <input type="radio" ng-model="vm.effect" value="bounce">
+                Bounce!
+              </label><br/>
+              <label>
+                <input type="radio" ng-model="vm.effect" value="flash">
+                Flash!
+              </label><br/>
+              <label>
+                <input type="radio" ng-model="vm.effect" value="swing">
+                Swing!
+              </label><br/>
+              <hr/>
+              <label>
+                <input type="checkbox" ng-model="infinite">
+                infinite loop
+             </label>
+             </form>
           </div>
         </div>
-        <div class="row">
-          <div class="panel panel-danger">
-            <div class="panel-heading">Notify sandbox</div>
-            <div class="panel-body">
-              <button type="button" class="btn btn-success" ng-click="vm.notify()">Notify me !</button>
-            </div>
+      </div>
+      <div class="row">
+        <div class="panel panel-danger">
+          <div class="panel-heading">Notify sandbox</div>
+          <div class="panel-body">
+            <button type="button" class="btn btn-success" ng-click="vm.notify()">Notify me !</button>
           </div>
         </div>
       </div>
