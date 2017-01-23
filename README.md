@@ -1,7 +1,11 @@
 # electron-forge-angular
-An Angular starter kit for electron who works with electron-forge!
 
+[![Build Status](https://travis-ci.org/Kazuia/electron-forge-angular.svg?branch=master)](https://travis-ci.org/Kazuia/electron-forge-angular)
 [![Known Vulnerabilities](https://snyk.io/test/github/Kazuia/electron-forge-angular/badge.svg)](https://snyk.io/test/github/Kazuia/electron-forge-angular)
+
+------
+
+An Angular starter kit for electron who works with electron-forge!
 
 ## What's in the box ?
 
