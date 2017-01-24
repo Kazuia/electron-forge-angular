@@ -7,7 +7,7 @@
   "scripts": {
     "prestart": "gulp inject",
     "start": "electron-forge start",
-    "postinstall": "bower install",
+    "postinstall": "bower install && git update-index --assume-unchanged src/index.html",
     "lint": "eslint src"
   },
   "keywords": [],
