@@ -23,3 +23,5 @@ $ cd electron-forge-angular
 $ npm install
 $ npm start
 ```
+
+test
